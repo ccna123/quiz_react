@@ -1,0 +1,584 @@
+[
+    {
+        "id": 1,
+        "img": "/img/kid.png",
+        "name": "Trivial",
+        "questions": [
+            {
+                "id": 1,
+                "text": "What does “www” stand for in a website browser?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "World Wide Web",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Well Well Well",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Why We Won",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Who What Where",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "How long is an Olympic swimming pool (in meters)?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "4 meters",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "81 meters",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "50 meters",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "144 meters",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "What countries made up the original Axis powers in World War II?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Germany, Italy, and Japan",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Germany, China, and America",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Thailand, Russia, and Australia",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Canada, Brazil and Korea",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "img": "/img/geo.jpg",
+        "name": "Geography",
+        "questions": [
+            {
+                "id": 1,
+                "text": "What is Earth's largest continent?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Asia",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Africa",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Europe",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Antarctica",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "What's the city with the most diversity in terms of language?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Tokyo",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Sydney",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Moscow",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "New York City",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "What country has the most natural lakes?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "America",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Canada",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Mexico",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Italy",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "img": "/img/animal.jpg",
+        "name": "Animal",
+        "questions": [
+            {
+                "id": 1,
+                "text": "How many hearts does an octopus have?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "3",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "5",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "2",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "1",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "How long do elephant pregnancies last?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "15 months",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "55 months",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "26 months",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "22 months",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "The name of which African animal means 'river horse'?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Buffalo",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Hippopotamus",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Crocodile",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Elephant",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "img": "/img/entertainment.jpg",
+        "name": "Entertainment",
+        "questions": [
+            {
+                "id": 1,
+                "text": "What was the first toy to be advertised on television?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Mr Potato Head from Toy Story",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Buzz Lightyear from Toy Story",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Iron-man from The Avengers",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Harry Potter",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Which Disney Princess talks to the most animals?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Ariel",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Cinderella",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Aura",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Snow White",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "What was the first feature-length animated movie ever released? (Hint: It was a Disney Movie)",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Sleeping beauty",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Snow White and the Seven Dwarfs",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "The little mermaid",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Tarzan",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "img": "/img/hero.jpg",
+        "name": "Hero",
+        "questions": [
+            {
+                "id": 1,
+                "text": "What is Hawkeye's real name?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Clint Barton",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Iron man",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Captain America",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Captain Marvel",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Night Crawler, member of the X-Men, has what kind of powers?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Speed",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Strength",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Fly",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Teleport",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "What is the name of Batman's butler?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Mary",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Alfred",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Tim",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Peter",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "img": "/img/japanese.png",
+        "name": "Japanese",
+        "questions": [
+            {
+                "id": 1,
+                "text": "この本__どこで買いましたか",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "を",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "は",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "が",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "に",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "「安眠」の読み方は何ですか",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "あんしん",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "あんか",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "あんど",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "あんみん",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "明日は学校の、早く寝よう",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "ことで",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "ため",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "関係で",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "影響で",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Header } from "./components/Header";
+import { Home } from "./components/Home";
+import { Question } from "./components/Question";
+import { QuizCard } from "./components/QuizCard";
+import { QuizSelection } from "./components/QuizSelection";
+import quizes from "./quizes.json"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App font-mono">
+        <div className="bg-white w-full h-screen">
+          <div className="bg-red-300 h-fit">
+            <Header />
+          </div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/quiz" element={<QuizSelection quizes={quizes} />} />
+            {quizes.map((quiz) => (
+              <Route key={quiz.id} path={`/quiz/${quiz.id}`} element={<Question questions={quiz.questions} />} />
+            ))}
+          </Routes>
+        </div>
+      </div>
+    </BrowserRouter >
   );
 }
 
