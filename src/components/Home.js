@@ -1,16 +1,40 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 
 export const Home = () => {
+
+    const btnVariant = {
+        hover: {
+            scale: 1.1,
+            boxShadow: '0px 0px 8px 0px rgb(255,255,255)',
+            borderRadius: '9999px',
+            transition: {
+                repeat: Infinity,
+                duration: 0.5
+            }
+        }
+    }
+
     return (
-        <div className='w-full'>
-            <div className='flex justify-center mt-52'>
+        <motion.div className='w-full'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5, duration: 1 }}
+        >
+            <motion.div className='flex justify-center mt-52 w-fit mx-auto'
+                variants={btnVariant}
+                whileHover='hover'
+            >
                 <Link
                     to="/quiz"
-                    className='rounded-lg bg-orange-300 px-10 py-2 hover:scale-105 duration-100'>
-                    Start
+                    className='text-8xl h-fit rounded-full bg-orange-300 px-10 py-2 w-[512px] text-center items-center justify-center flex'>
+                    <button>
+                        Start
+                    </button>
+
                 </Link>
-            </div>
-        </div>
+            </motion.div>
+        </motion.div>
     )
 }
