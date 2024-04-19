@@ -21,14 +21,16 @@ export const Header = () => {
       //     duration: 1
       // }}
     >
-      <img
-        src="/img/logo.png"
-        alt=""
-        className="md:w-[256px] md:h-[256px] w-[128px] h-[128px]"
-      />
-      <div className="bg-white mt-5 p-4 text-2xl rounded-lg w-[256px] h-[64px] flex justify-center items-center">
-        {/* <Link to='/add_question'>Add question</Link> */}
-      </div>
+      <Link to="/">
+        <img
+          src="/img/logo.png"
+          alt=""
+          className="md:w-[256px] md:h-[256px] w-[128px] h-[128px]"
+        />
+      </Link>
+      {/* <div className="bg-white mt-5 p-4 text-2xl rounded-lg w-[256px] h-[64px] flex justify-center items-center">
+        <Link to="/add_question">Add question</Link>
+      </div> */}
       <input
         value={searchQuery}
         onChange={(e) => search(e)}
