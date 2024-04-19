@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <QuizProvider>
-        <AddQuestion />
+        {/* <AddQuestion /> */}
         <div className="App font-mono relative">
           <div
             style={{ border: ["1px solid red"] }}
