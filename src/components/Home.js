@@ -27,7 +27,7 @@ export const Home = () => {
           to="/quiz"
           className="text-4xl h-fit rounded-full bg-orange-300 px-10 py-2 w-[256px] text-center items-center justify-center flex"
         >
-          <button>Start</button>
+          <button>Start the game</button>
         </Link>
       </motion.div>
       <motion.img
