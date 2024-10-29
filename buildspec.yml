@@ -7,7 +7,7 @@ phases:
     commands:
       - echo Installing source NPM dependencies...
       - npm install
-      - print env
+      - printenv
   pre_build:
     commands:
       - echo Starting build...
