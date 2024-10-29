@@ -19,7 +19,7 @@ export const Home = () => {
       transition={{ delay: 0.5, duration: 1 }}
     >
       <motion.div
-        className="flex justify-center mt-52 w-fit mx-auto"
+        className="flex justify-center mt-10 w-fit mx-auto"
         variants={btnVariant}
         whileHover="hover"
       >
@@ -34,7 +34,7 @@ export const Home = () => {
         animate={{ scale: 1.1 }}
         transition={{
           repeat: Infinity,
-          duration: 0.5,
+          duration: 1.0,
         }}
         className="w-48 h-48 mx-auto mt-10"
         src="/img/question_mark.png"
