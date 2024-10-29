@@ -7,6 +7,7 @@ phases:
     commands:
       - echo Installing source NPM dependencies...
       - npm install
+      - print env
   pre_build:
     commands:
       - echo Starting build...
@@ -17,7 +18,7 @@ phases:
   post_build:
     commands:
       - echo Copying files to S3...
-      - aws s3 sync build/ s3://caicanuoc123 --delete
+      - aws s3 sync build/ s3://$BUCKET_NAME --delete
       - echo Build completed successfully.
 artifacts:
   files:
