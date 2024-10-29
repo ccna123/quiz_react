@@ -16,8 +16,8 @@ phases:
       - npm run build # This generates the build directory with static files
   post_build:
     commands:
-      - echo Copy package.json to build directory...
-      - cp package.json build/package.json
+      - echo Copying files to S3...
+      - aws s3 sync build/ s3://caicanuoc123 --delete
       - echo Build completed successfully.
 artifacts:
   files:
