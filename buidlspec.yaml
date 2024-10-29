@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20
+    commands:
+      - echo Installing source NPM dependencies...
+      - npm install
+  pre_build:
+    commands:
+      - echo Starting build...
+  build:
+    commands:
+      - echo Building the React app...
+      - npm run build # This generates the build directory with static files
+  post_build:
+    commands:
+      - echo Copy package.json to build directory...
+      - cp package.json build/package.json
+      - echo Build completed successfully.
+artifacts:
+  files:
+    - build/** # Include all files in the build directory
+  base-directory: build # Set the base directory to the build folder
